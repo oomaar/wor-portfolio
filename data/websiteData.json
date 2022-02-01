@@ -1,0 +1,191 @@
+{
+    "nav": {
+        "img": "/logo.png",
+        "links": [
+            {
+                "id": 1,
+                "title": "About us"
+            },
+            {
+                "id": 2,
+                "title": "Solutions"
+            },
+            {
+                "id": 3,
+                "title": "Services"
+            },
+            {
+                "id": 4,
+                "title": "Customers"
+            },
+            {
+                "id": 5,
+                "title": "Technologies"
+            },
+            {
+                "id": 6,
+                "title": "Contact us"
+            }
+        ]
+    },
+    "about": "WOREX Technology is a regional IT services firm providing world class solution to regional leading organizations with an emphasis on Advanced Analytics, digital business automation, Performance Management, and ERP. WOREX provides On-premise  and Cloud-based solutions. WOREX Technology has a well selected experts with more than 20-years proven track record of building a state of art solutions for Telco, Financial, Manufacturing, Education, and Government sectors; WOREX  leveraging on  its vast pool of talented resources, different International vendors experience, and business domains experience to build and package innovative solutions which empower the business and increase business ROI. WOREX has regional offices in Cairo, Dubai & Riyadh.",
+    "solutions": {
+        "img": "/solutions.png",
+        "list": [
+            "Digital Business Transformation",
+            "Big Data & Analytics",
+            "ERP",
+            "IT Managment",
+            "Zendesk"
+        ],
+        "data": [
+            {
+                "id": 1,
+                "title": "Digital Business Transformation",
+                "description": [
+                    {
+                        "id": "desc1",
+                        "descTitle": "ECM (Enterprise Content Management)",
+                        "descText": "Worex Technology experts helps organizations  using ECM  solution to digitize documents and automate document-driven processes, allowing the right people to access the right information at the right time."
+                    },
+                    {
+                        "id": "desc2",
+                        "descTitle": "BPA (Business Process Automation)",
+                        "descText": "Worex Technology help organizations save time and ensure best practices are implemented to improve overall operational efficiency using Business process automation (BPA) which is an organizational transformation that aims to drive efficiency, provide transparency and facilitate compliance for repeatable processes."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Big Data & Analytics",
+                "description": [
+                    {
+                        "id": "desc1",
+                        "descTitle": "Data nowadays extremely expanded and the need to deal to target analytics on  the data considering 3Vs (velocity , volume & variety) is the key for service enhancement and business decision, Worex with its experienced team will guide the customer through the whole journey.",
+                        "descText": "p-1 Business case design with goals and phases p-2 Data ingestion & cleansing from different data sources p-3 Building Hadoop big data platform p-4 Setup & configuration big data technologies and tools ( Nifi , Kafka, Storm , Spark , Pig , Oozie ..) p-5 Data correlation p-6 Data search p-7 Data encryption p-8 Data authentication & authorization p-9 Reporting & analytics p-10 Real time end user dashboards & visualizationt time."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "ERP",
+                "description": [
+                    {
+                        "id": "desc1",
+                        "descTitle": "SAP software can revolutionize your business by combining all business life cycle processes and departments in one centralized solution optimized and tailored with best practices for each business sector Working with Worex team that has relevant industry experience and a proven track record in project delivery of SAP solution you can have full delivery for SAP ERP solution form solution design , implementation , testing till post implementation. Our services include :",
+                        "descText": "Business process design and harmonization Pre-configured industry and regional templates Independent Testing – manual and automated testing Product Training – Content development and delivery for both power and end users Setup and configuration of SAP solutions including : SAP HCM SAP Solution Manager SAP HANA SAP Integration Service using SAP integration methods such as NetWeaver PI, Business Connector, ALE, RFC, PI."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "IT Managment",
+                "description": [
+                    {
+                        "id": "desc1",
+                        "descTitle": "At Worex we provide information technology management solutions for the following areas.",
+                        "descText": "Infrastructure & Cloud Management Network Management Application Performance Management IT Service & Asset Management Software Development Life Cycle Management"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Zendesk",
+                "description": [
+                    {
+                        "id": "desc1",
+                        "descTitle": "Connect with customers on any channel The Zendesk platform is where the action is. Customer interactions across phone, chat, email, social media, and any other channel you can imagine, all come together in one place Let's have a quick overview here",
+                        "descText": "http://www.worex.com/zendesk/"
+                    }
+                ]
+            }
+        ]
+    },
+    "services": {
+        "title": "Our Services",
+        "img": "/services.png",
+        "text": "In all our services, we are flexible to provide diffrent types of service offerings to deliver it in the best way fitting each customer nature and budget.",
+        "points": [
+            "Consultancy & Professional Services",
+            "Managed Services",
+            "Training",
+            "Operations Support (visits, outsourcing, remote, support with SLA)",
+            "Quality Assurance (Auditing from Solution Design till Implementation)"
+        ]
+    },
+    "customers": [
+        {
+            "id": 1,
+            "img": "/customers/mof.jpeg"
+        },
+        {
+            "id": 2,
+            "img": "/customers/qalaa-1.jpeg"
+        },
+        {
+            "id": 3,
+            "img": "/customers/BIM.jpg"
+        },
+        {
+            "id": 4,
+            "img": "/customers/elswedi.jpg"
+        },
+        {
+            "id": 5,
+            "img": "/customers/erc.jpg"
+        },
+        {
+            "id": 6,
+            "img": "/customers/misrpharma.jpg"
+        },
+        {
+            "id": 7,
+            "img": "/customers/petrojet.jpg"
+        }
+    ],
+    "technologies": {
+        "title": "Worex Technology has certified consultants and expertise on the following technology vendors",
+        "images": [
+            {
+                "id": 1,
+                "img": "/technologies/Cloudera.png"
+            },
+            {
+                "id": 2,
+                "img": "/technologies/dell-1.png"
+            },
+            {
+                "id": 3,
+                "img": "/technologies/Hortonworks.png"
+            },
+            {
+                "id": 4,
+                "img": "/technologies/HPE.png"
+            },
+            {
+                "id": 5,
+                "img": "/technologies/ibm.png"
+            },
+            {
+                "id": 6,
+                "img": "/technologies/MicroFocus_logo.png"
+            },
+            {
+                "id": 7,
+                "img": "/technologies/SAP.png"
+            },
+            {
+                "id": 8,
+                "img": "/technologies/solarwinds.png"
+            }
+        ]
+    },
+    "reachUs": {
+        "address": "25-Corniche EL Nile-Maadi-Tower 3-Floor 23",
+        "mobile": "+201093334886",
+        "phone": "+202_25250444",
+        "fax": "+202_25250555",
+        "postalCode": "11433"
+    },
+    "footer": "© Copyright 2018. WOREX Technology - All Rights Reserved"
+}
