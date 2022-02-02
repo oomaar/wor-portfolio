@@ -4,6 +4,8 @@ const hueColor = `220`;
 
 export const transition = `all 0.3s ease-in`;
 
+export const HeaderHeight = `5rem`;
+
 export const lightTheme = {
   colors: {
     firstColor: `hsl(${hueColor}, 69%, 61%)`,
@@ -18,7 +20,9 @@ export const lightTheme = {
     containerColor: '#eee',
     scrollBarColor: `hsl(${hueColor}, 12%, 90%)`,
     scrollThumbColor: `hsl(${hueColor}, 12%, 80%)`,
-    copyColor: `#a30908`
+    copyColor: `#a30908`,
+    iconColor: `#000`,
+    overlayColor: `rgba(0, 0, 0, 0.5)`
   }
 };
 
@@ -36,7 +40,9 @@ export const darkTheme = {
     containerColor: `hsl(${hueColor}, 29%, 16%)`,
     scrollBarColor: `hsl(${hueColor}, 12%, 48%)`,
     scrollThumbColor: `hsl(${hueColor}, 12%, 36%)`,
-    copyColor: `#318ce7`
+    copyColor: `#318ce7`,
+    iconColor: `#fff`,
+    overlayColor: `rgba(255, 255, 255, 0.1)`
   }
 };
 
