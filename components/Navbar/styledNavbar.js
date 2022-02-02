@@ -10,6 +10,7 @@ export const OverLay = styled.div`
   bottom: 0;
   opacity: ${({ toggleShow }) => toggleShow ? "1" : 0};
   transition: ${transition};
+  z-index: 1000;
 
   @media screen and (min-width: 768px) {
     display: none;
@@ -22,6 +23,7 @@ export const Nav = styled.nav`
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1000;
   
   @media screen and (min-width: 768px) {
     display: flex;
@@ -56,7 +58,6 @@ export const NavList = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 100;
   margin: 0;
   background-color: #000;
   padding: ${({ toggleShow }) => toggleShow ? "1rem 0" : "0"};
@@ -101,7 +102,7 @@ export const BurgerIcon = styled.div`
   right: 1rem;
   top: 0.6rem;
   cursor: pointer;
-  z-index: 200;
+  z-index: 1000;
 
   @media screen and (min-width: 768px) {
     display: none;
