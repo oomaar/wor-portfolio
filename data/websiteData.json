@@ -28,6 +28,29 @@
             }
         ]
     },
+    "hero": [
+        {
+            "id": 0,
+            "direction": "row",
+            "src": "/hero/hero-1.png",
+            "title": "Welcome to Worex Technology",
+            "subTitle": "Technology empowering business"
+        },
+        {
+            "id": 1,
+            "direction": "row-reverse",
+            "src": "/hero/hero-2.png",
+            "title": "Our Vision",
+            "subTitle": "Converting IT from cost center to profit center by offering tailored turnkey IT solutions optimized for each business sector. "
+        },
+        {
+            "id": 2,
+            "direction": "row",
+            "src": "/hero/hero-3.png",
+            "title": "Our Mission",
+            "subTitle": "Empowering business and increasing corporate ROI by providing consultancy and professional services for IT innovative solutions "
+        }
+    ],
     "about": "WOREX Technology is a regional IT services firm providing world class solution to regional leading organizations with an emphasis on Advanced Analytics, digital business automation, Performance Management, and ERP. WOREX provides On-premise  and Cloud-based solutions. WOREX Technology has a well selected experts with more than 20-years proven track record of building a state of art solutions for Telco, Financial, Manufacturing, Education, and Government sectors; WOREX  leveraging on  its vast pool of talented resources, different International vendors experience, and business domains experience to build and package innovative solutions which empower the business and increase business ROI. WOREX has regional offices in Cairo, Dubai & Riyadh.",
     "solutions": {
         "img": "/solutions.png",
