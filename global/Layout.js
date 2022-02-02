@@ -1,6 +1,18 @@
 import { useEffect, useState } from "react";
 import { ThemeProvider } from "styled-components";
-import { darkTheme, GlobalStyle, lightTheme } from "./GlobalStyle";
+import { Navbar } from "../components";
+import {
+  darkTheme,
+  GlobalStyle,
+  HeaderHeight,
+  lightTheme,
+} from "./GlobalStyle";
+import websiteData from "../data/websiteData.json";
+import styled from "styled-components";
+
+const ApplicationLayout = styled.div`
+  margin: calc(${HeaderHeight} + 1rem) 0 0;
+`;
 
 export const Layout = ({ children }) => {
   const [toggleTheme, setToggleTheme] = useState("light");
@@ -35,11 +47,17 @@ export const Layout = ({ children }) => {
       checkTheme(null);
     }
   }, []);
+
   return (
     <>
       <ThemeProvider theme={toggleTheme === "light" ? lightTheme : darkTheme}>
         <GlobalStyle />
-        {children}
+        <Navbar
+          toggleTheme={toggleTheme}
+          data={websiteData.nav}
+          checkTheme={checkTheme}
+        />
+        <ApplicationLayout>{children}</ApplicationLayout>
       </ThemeProvider>
     </>
   );
