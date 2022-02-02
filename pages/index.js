@@ -1,11 +1,13 @@
+import { Hero } from "../components";
 import { Head } from "../global/Head";
+import websiteData from "../data/websiteData.json";
 
 export default function Home() {
   return (
     <div>
       <Head title="Worex Landing Page" />
 
-      <h1>My page</h1>
+      <Hero data={websiteData.hero} />
     </div>
   );
 };
