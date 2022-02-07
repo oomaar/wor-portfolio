@@ -47,7 +47,6 @@ export const SlideImage = styled.img`
 `;
 
 export const CarouselFeature = styled.div`
-  width: 40%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;

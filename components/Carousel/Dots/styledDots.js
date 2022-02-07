@@ -2,12 +2,16 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     position: absolute;
-    bottom: -100%;
+    bottom: -10%;
     left: 0;
     right: 0;
     display: flex;
     justify-content: center;
     z-index: 800;
+
+    @media screen and (max-width: 768px ){
+        bottom: -50%;
+    }
 `;
 
 export const Span = styled.span`
