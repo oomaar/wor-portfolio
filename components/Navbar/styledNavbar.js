@@ -40,7 +40,7 @@ export const NavLogo = styled.div`
   cursor: pointer;
   position: fixed;
   left: 0.5rem;
-  top: 1rem;
+  top: 1.5rem;
   z-index: 1;
 
   img {
@@ -48,7 +48,7 @@ export const NavLogo = styled.div`
     filter: invert(1);
     
     @media screen and (min-width: 768px) {
-      width: 120px;
+      width: 100px;
     }
   }
 
