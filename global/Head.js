@@ -5,6 +5,9 @@ export const Head = ({ title }) => {
     <NextHead>
       <title>{title}</title>
 
+      {/* Favicon */}
+      <link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
+
       {/* Google Fonts */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
