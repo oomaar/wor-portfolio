@@ -4,11 +4,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem 0;
-  width: 70%;
-  margin: 0 auto;
 
   @media screen and (max-width: 768px) {
-    width: 90%;
     text-align: center;
   }
 `;
