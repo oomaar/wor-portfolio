@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 import {
-    OverLay,
+  OverLay,
   Nav,
   NavLogo,
   NavList,
@@ -13,7 +13,7 @@ import {
 } from "./styledNavbar";
 
 export const Navbar = ({ toggleTheme, checkTheme, data }) => {
-    const [toggleShow, setToggleShow] = useState(false);
+  const [toggleShow, setToggleShow] = useState(false);
 
   const navData = data.links.map((link) => (
     <NavItem key={link.id}>
@@ -23,25 +23,25 @@ export const Navbar = ({ toggleTheme, checkTheme, data }) => {
 
   return (
     <Nav>
-        <OverLay toggleShow={toggleShow} onClick={() => setToggleShow(false)} />
+      <OverLay toggleShow={toggleShow} onClick={() => setToggleShow(false)} />
       <NavLogo>
-          <img src={data.img} />
+        <img src={data.img} />
       </NavLogo>
 
       <BurgerIcon onClick={() => setToggleShow(state => !state)}>
-          <BurgerBar toggleShow={toggleShow} className="bar-1"></BurgerBar>
-          <BurgerBar toggleShow={toggleShow} className="bar-2"></BurgerBar>
-          <BurgerBar toggleShow={toggleShow} className="bar-3"></BurgerBar>
+        <BurgerBar toggleShow={toggleShow} className="bar-1"></BurgerBar>
+        <BurgerBar toggleShow={toggleShow} className="bar-2"></BurgerBar>
+        <BurgerBar toggleShow={toggleShow} className="bar-3"></BurgerBar>
       </BurgerIcon>
 
       <NavList toggleShow={toggleShow}>{navData}</NavList>
 
       <DarkContainer>
-          {toggleTheme === "dark" ? (
-              <BsFillSunFill onClick={checkTheme} />
-          ) : (
-              <BsFillMoonFill onClick={checkTheme} />
-          )}
+        {toggleTheme === "dark" ? (
+          <BsFillSunFill onClick={checkTheme} />
+        ) : (
+          <BsFillMoonFill onClick={checkTheme} />
+        )}
       </DarkContainer>
     </Nav>
   );

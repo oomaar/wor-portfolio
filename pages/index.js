@@ -5,9 +5,11 @@ import styled from 'styled-components';
 
 const Main = styled.main`
   margin-top: 32rem;
+  padding: 0 1rem;
 
   @media screen and (max-width: 768px) {
-    margin-top: 25rem;
+    margin-top: 28rem;
+    padding: 0 0.5rem;
   }
 `;
 
@@ -18,7 +20,7 @@ export default function Home() {
 
       <Hero data={websiteData.hero} />
       <Main>
-        <About />
+        <About data={websiteData.about} />
       </Main>
     </div>
   );
