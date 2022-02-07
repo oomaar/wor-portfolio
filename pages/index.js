@@ -6,11 +6,10 @@ import styled from 'styled-components';
 const Main = styled.main`
   padding: 0 1rem;
   width: 70%;
-  margin: 32rem auto 0;
+  margin: 10rem auto 0;
 
   @media screen and (max-width: 768px) {
-    margin-top: 28rem;
-    margin: 28rem auto 0;
+    margin: 20rem auto 0;
     padding: 0 0.5rem;
     width: 90%;
   }
