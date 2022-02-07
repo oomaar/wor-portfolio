@@ -10,7 +10,7 @@ export const Container = styled.div`
     z-index: 800;
 
     @media screen and (max-width: 768px) {
-        bottom: -100%;
+        bottom: -90%;
     }
 `;
 
@@ -25,10 +25,10 @@ export const Span = styled.span`
     transition: all 0.5s ease;
 
     &.active-dot {
-        background-color: ${({theme}) => theme.colors.firstColor};
+        background-color: ${({ theme }) => theme.colors.firstColor};
 
         &:hover {
-            background-color: ${({theme}) => theme.colors.firstColorAlt};
+            background-color: ${({ theme }) => theme.colors.firstColorAlt};
         }
     }
     

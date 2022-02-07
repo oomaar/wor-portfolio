@@ -42,7 +42,7 @@ export const darkTheme = {
     scrollThumbColor: `hsl(${hueColor}, 12%, 36%)`,
     copyColor: `#318ce7`,
     iconColor: `#fff`,
-    overlayColor: `rgba(255, 255, 255, 0.1)`
+    overlayColor: `rgba(0, 0, 0, 0.5)`
   }
 };
 

@@ -9,6 +9,10 @@ export const Container = styled.div`
     width: 100%;
     display: flex;
     z-index: 800;
+
+    @media screen and (max-width: 768px) {
+      top: 20%;
+    }
 `;
 
 export const Arrow = styled.span`
@@ -21,7 +25,7 @@ export const Arrow = styled.span`
     font-weight: bold;
     border-radius: 0 5px 5px 0;
     transition: 0.5s ease-in-out;
-    color: ${({theme}) => theme.colors.firstColor};
+    color: ${({ theme }) => theme.colors.firstColor};
 
     &:hover {
         color: ${({ theme }) => theme.colors.firstColorAlt};

@@ -9,6 +9,7 @@ export const OverLay = styled.div`
   right: 0;
   bottom: 0;
   opacity: ${({ toggleShow }) => toggleShow ? "1" : 0};
+  display: ${({ toggleShow }) => toggleShow ? "flex" : "none"};
   transition: ${transition};
   z-index: 1000;
 
@@ -24,6 +25,7 @@ export const Nav = styled.nav`
   left: 0;
   right: 0;
   z-index: 1000;
+  height: 60px;
   
   @media screen and (min-width: 768px) {
     display: flex;
@@ -37,20 +39,24 @@ export const NavLogo = styled.div`
   margin: 0;
   cursor: pointer;
   position: fixed;
-  left: 1rem;
+  left: 0.5rem;
   top: 1rem;
   z-index: 1;
 
   img {
-    width: 120px;
+    width: 80px;
     filter: invert(1);
+    
+    @media screen and (min-width: 768px) {
+      width: 120px;
+    }
   }
 
   @media screen and (min-width: 768px) {
-    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 1rem;
   }
 `;
 
@@ -119,7 +125,7 @@ export const BurgerBar = styled.div`
 
   &.bar-1 {
     background-color: ${({ toggleShow }) => toggleShow && "#f00"};
-    transform: ${({ toggleShow }) => toggleShow && "rotateZ(-45deg) translateX(-0.9rem)" };
+    transform: ${({ toggleShow }) => toggleShow && "rotateZ(-45deg) translateX(-0.9rem)"};
   }
 
   &.bar-2 {
@@ -128,7 +134,7 @@ export const BurgerBar = styled.div`
 
   &.bar-3 {
     background-color: ${({ toggleShow }) => toggleShow && "#f00"};
-    transform: ${({ toggleShow }) => toggleShow && "rotateZ(45deg) translateX(-0.9rem)" };
+    transform: ${({ toggleShow }) => toggleShow && "rotateZ(45deg) translateX(-0.9rem)"};
   }
 `;
 

@@ -2,19 +2,14 @@ import styled from "styled-components";
 import { transition } from "../../../global/GlobalStyle";
 
 export const Container = styled.div`
-  height: 80vh;
+  position: relative;
   z-index: 1;
-
-  @media screen and (max-width: 768px) {
-    height: auto;
-  }
 `;
 
 export const Slide = styled.div`
   display: flex;
-  flex-direction: ${({direction}) => direction};
+  flex-direction: ${({ direction }) => direction};
   justify-content: center;
-  z-index: 1;
   width: 0;
   height: 0;
   opacity: 0;
@@ -59,6 +54,7 @@ export const CarouselFeature = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100%;
+    text-align: center;
   }
 `;
 
