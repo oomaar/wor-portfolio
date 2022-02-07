@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 const hueColor = `220`;
 
@@ -78,5 +78,28 @@ export const GlobalStyle = createGlobalStyle`
   
   ::-webkit-scrollbar-thumb:hover {
     background-color: ${({ theme }) => theme.colors.scrollBarHover};
+  }
+`;
+
+// Global Classes
+export const SectionTitle = styled.h3`
+  color: ${({ theme }) => theme.colors.titleColor};
+  font-size: 1.3rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
+`;
+
+export const Section = styled.section`
+  background-color: ${({ theme }) => theme.colors.containerColor};
+  width: 90%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem auto;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 1rem 0;
   }
 `;
