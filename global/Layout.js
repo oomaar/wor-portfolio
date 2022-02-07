@@ -15,37 +15,21 @@ const ApplicationLayout = styled.div`
 `;
 
 export const Layout = ({ children }) => {
-  const [toggleTheme, setToggleTheme] = useState("light");
+  const [toggleTheme, setToggleTheme] = useState("");
 
   const checkTheme = () => {
-    switch (toggleTheme) {
-      case "light":
-        setToggleTheme("dark");
-        localStorage.setItem("worex-dark-value", "dark");
-        return document.documentElement.setAttribute("data-theme", "dark");
-
-      case "dark":
-        setToggleTheme("light");
-        localStorage.setItem("worex-drak-value", "light");
-        return document.documentElement.setAttribute("data-theme", "light");
-
-      default:
-        setToggleTheme("light");
-        localStorage.setItem("worex-drak-value", "light");
-        return document.documentElement.setAttribute("data-theme", "light");
+    if (toggleTheme === "light") {
+      setToggleTheme("dark");
+      localStorage.setItem("worex-dark-value", "dark");
+    } else if (toggleTheme === "dark") {
+      setToggleTheme("light");
+      localStorage.setItem("worex-dark-value", "light");
     }
   };
 
   useEffect(() => {
-    if (localStorage.getItem("worex-dark-value")) {
-      setToggleTheme(localStorage.getItem("worex-dark-value"));
-      document.documentElement.setAttribute(
-        "data-theme",
-        localStorage.getItem("theme")
-      );
-    } else {
-      checkTheme(null);
-    }
+    const themeValue = localStorage.getItem("worex-dark-value");
+    setToggleTheme(themeValue);
   }, []);
 
   return (
