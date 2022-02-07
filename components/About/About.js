@@ -1,14 +1,16 @@
+import { Section, SectionTitle } from "../../global/GlobalStyle";
 import {
     Container,
-    AboutTitle,
     AboutDescription,
 } from "./styledAbout";
 
 export const About = ({ data }) => {
     return (
-        <Container>
-            <AboutTitle>About us</AboutTitle>
-            <AboutDescription>{data}</AboutDescription>
-        </Container>
+        <Section>
+            <Container>
+                <SectionTitle>About us</SectionTitle>
+                <AboutDescription>{data}</AboutDescription>
+            </Container>
+        </Section>
     );
 };
