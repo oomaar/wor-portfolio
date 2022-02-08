@@ -14,7 +14,7 @@ export const Solutions = ({ data }) => {
     ));
 
     return (
-        <Section>
+        <Section id="solutions">
             <SectionTitle>Our Solutions</SectionTitle>
             <Container>
                 <div>

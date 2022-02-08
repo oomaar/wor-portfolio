@@ -97,7 +97,7 @@ export const SectionTitle = styled.h3`
 export const Section = styled.section`
   background-color: ${({ theme }) => theme.colors.containerColor};
   width: 90%;
-  padding: 1rem;
+  padding: 4rem 1rem 1rem;
   border-radius: 0.5rem;
   margin: 1rem auto;
 

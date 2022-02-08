@@ -6,7 +6,7 @@ import {
 
 export const About = ({ data }) => {
     return (
-        <Section>
+        <Section id="about">
             <Container>
                 <SectionTitle>About us</SectionTitle>
                 <AboutDescription>{data}</AboutDescription>

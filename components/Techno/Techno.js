@@ -13,7 +13,7 @@ export const Techno = ({ data }) => {
     ));
 
     return (
-        <Section>
+        <Section id="technologies">
             <SectionTitle>Technologies</SectionTitle>
             <TechnoTitle>{data.title}</TechnoTitle>
             <Container>

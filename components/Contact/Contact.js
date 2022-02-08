@@ -10,7 +10,7 @@ import {
 
 export const Contact = ({ data }) => {
     return (
-        <Section>
+        <Section id="contactus">
             <SectionTitle>Contact Us</SectionTitle>
             <Container>
                 <ContactList>

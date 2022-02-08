@@ -12,7 +12,7 @@ export const Services = ({ data }) => {
     ));
 
     return (
-        <Section>
+        <Section id="services">
             <SectionTitle>{data.title}</SectionTitle>
             <Description>{data.text}</Description>
             <Container>

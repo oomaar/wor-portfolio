@@ -13,7 +13,7 @@ export const Customer = ({ data }) => {
     ));
 
     return (
-        <Section>
+        <Section id="customers">
             <SectionTitle>Our Customers</SectionTitle>
             <Container>
                 {images}

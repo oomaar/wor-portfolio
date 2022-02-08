@@ -17,7 +17,7 @@ export const Navbar = ({ toggleTheme, checkTheme, data }) => {
 
   const navData = data.links.map((link) => (
     <NavItem key={link.id}>
-      <NavLink href="#">{link.title}</NavLink>
+      <NavLink href={link.href}>{link.title}</NavLink>
     </NavItem>
   ));
 
