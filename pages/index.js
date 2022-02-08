@@ -1,4 +1,4 @@
-import { About, Hero, Solutions } from "../components";
+import { About, Hero, Services, Solutions } from "../components";
 import { Head } from "../global/Head";
 import websiteData from "../data/websiteData.json";
 import styled from 'styled-components';
@@ -24,6 +24,7 @@ export default function Home() {
       <Main>
         <About data={websiteData.about} />
         <Solutions data={websiteData.solutions} />
+        <Services data={websiteData.services} />
       </Main>
     </div>
   );
