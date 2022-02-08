@@ -95,6 +95,11 @@ export const NavLink = styled.a`
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
+  transition: ${transition};
+
+  :hover {
+    color: ${({ theme }) => theme.colors.firstColor};
+  }
 
   @media screen and (min-width: 768px) {
     text-transform: capitalize;

@@ -4,7 +4,7 @@ const hueColor = `220`;
 
 export const transition = `all 0.3s ease-in`;
 
-export const HeaderHeight = `5rem`;
+export const HeaderHeight = `2.8rem`;
 
 export const lightTheme = {
   colors: {
