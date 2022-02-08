@@ -10,7 +10,6 @@ export const Container = styled.div`
 `;
 
 export const SolutionsList = styled.ul`
-  padding: 0;
   margin: 0 auto;
   font-size: 1.3rem;
 
@@ -27,9 +26,5 @@ export const SolutionsItem = styled.li`
 
   span {
     color: ${({ theme }) => theme.colors.textColor};
-  }
-
-  @media screen and (max-width: 768px) {
-    /* list-style: none; */
   }
 `;
