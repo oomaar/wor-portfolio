@@ -23,7 +23,8 @@ export const lightTheme = {
     scrollBarHover: `hsl(${hueColor}, 8%, 65%)`,
     copyColor: `#a30908`,
     iconColor: `#000`,
-    overlayColor: `rgba(0, 0, 0, 0.5)`
+    overlayColor: `rgba(0, 0, 0, 0.5)`,
+    heroColor: `rgba(255, 255, 255, 0.5)`
   }
 };
 
@@ -44,7 +45,9 @@ export const darkTheme = {
     scrollBarHover: `hsl(${hueColor}, 8%, 65%)`,
     copyColor: `#318ce7`,
     iconColor: `#fff`,
-    overlayColor: `rgba(0, 0, 0, 0.5)`
+    overlayColor: `rgba(0, 0, 0, 0.5)`,
+    heroColor: `rgba(0, 0, 0, 0.5)`
+
   }
 };
 

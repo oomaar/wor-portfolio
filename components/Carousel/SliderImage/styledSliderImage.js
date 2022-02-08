@@ -9,7 +9,8 @@ export const Container = styled.div`
 export const Slide = styled.div`
   display: flex;
   flex-direction: ${({ direction }) => direction};
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   width: 0;
   height: 0;
   opacity: 0;
@@ -26,6 +27,7 @@ export const Slide = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    justify-content: center;
   }
 `;
 
@@ -64,7 +66,7 @@ export const Title = styled.h1`
 `;
 
 export const SubTitle = styled.h1`
-  max-width: 450px;
+  max-width: 550px;
   text-transform: uppercase;
   font-size: clamp(1.125rem, 3vw, 1.625rem);
   color: ${({ theme }) => theme.colors.textColor};
