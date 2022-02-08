@@ -4,3 +4,4 @@ export { About } from "./About/About";
 export { Solutions } from "./Solutions/Solutions";
 export { Services } from "./Services/Services";
 export { Customer } from "./Customer/Customer";
+export { Techno } from "./Techno/Techno";
